@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form>
+        <label for="First Name">First Name</label>
+        <input id="First Name" name="fname" required placeholder="First Name" type="text"><br>
+        <label for="Last Name">Last Name</label>
+        <input id="Last Name" required placeholder="Last Name" type="text"><br>
+        <label for="Address">Address</label>
+        <input id="Address" required placeholder="Address" type="text"><br>
+        <label for="Phone-Number">Phone-Number</label>
+        <input id="Phone-Number" required placeholder="Phone-Number" type="number"><br>
+        <label for="Email">Email</label>
+        <input id="Email" required placeholder="Email" type="email"><br>
+        <label for="Reference">Reference</label>
+        <input required placeholder="Reference" type="text"><br>
+        <label>How did you hear about us</label>
+        <select>
+            <option value="1">facebook</option>
+            <option value="2">google</option>
+            <option value="3">twitter</option>
+            <option value="4">other</option>
+        </select><br>
+        <label for="AGREE">AGREE TO GET MARKETING SPAM</label>
+        <input required id="AGREE" type="checkbox">
+        <br>
+    </form>
+    <h4>Select from the dropdown list:</h4>
+    <select required name="dlist">
+        <option hidden selected>Select here</option>
+        <option value="ok">ok</option>
+        <option value="good">good</option>
+        <option value="vgood">very good</option>
+        <option value="excellent">excellent</option>
+        <option value="outstanding">outstanding</option>
+    </select>
+    <br><br>
+    <h4>Choose a gender</h4>
+    <label>
+        <input type="radio" name="gender" value="male">
+        male
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="gender" value="female">
+        female
+    </label>
+    <br>
+    <button required style="width: 500px;">ok</button>
+    <br><br>
+    <a href="index.html">back to index.html</a>
+
+</body>
+
+</html>
